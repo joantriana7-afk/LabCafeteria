@@ -22,7 +22,7 @@ public class ejercicio4 {
             if(montoApertura > 0){
                 esValido = true;
             }
-        } while ( esValido == false );
+        } while ( !esValido );
         scanner.close();
     }
 }
