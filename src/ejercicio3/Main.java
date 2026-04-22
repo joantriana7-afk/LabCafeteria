@@ -1,5 +1,7 @@
 package ejercicio3;
 
+import java.util.Scanner;
+
 /*Ejercicio 3 — switch
 La cafetería clasifica sus productos en categorías: B = Bebida caliente, F = Bebida fría, C =
 Comida, P = Postre.
@@ -11,7 +13,13 @@ Pregunta: ¿En qué situación preferirías usar switch en lugar de una cadena d
 este ejercicio donde el switch no sería la mejor opción?*/
 public class Main {
     static void main() {
-        char codigo = 'G';
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese una categoria:");
+        System.out.println("B. bebida caliente");
+        System.out.println("F. Bebida fría");
+        System.out.println("C. Comida");
+        System.out.println("P. Postre");
+        char codigo= scanner.next().charAt(0);
 
         switch (codigo) {
             case 'B':
