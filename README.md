@@ -17,7 +17,7 @@ En este ejercicio no lo usaria para ya tomar deciciones mas complejas como descu
    el orden de ejecución. R/ el do-while es mas apropiado por que primero ejecuta el codigo y luego revisa la condicion, el white primero pregunta y luego actua.
 6. ¿Por qué usas for aquí y no while? ¿Qué tiene el for que lo hace más conveniente cuando
    conoces el número de elementos? R/ Usamos for por que sabesmos exactamente cuantos productos hay en la lista, y el while se usaria mas cuando no se seabe cuantas veces va a repetirse algo.
-7.¿Cuántos errores encontraste? Clasifica cada uno: ¿es un error de compilación o un error
+7. ¿Cuántos errores encontraste? Clasifica cada uno: ¿es un error de compilación o un error
    lógico? ¿Cómo los distingues?* R/
 
    int cantidadVendida = 5;  //Es un error de logico, Se le estaba pasando un caracter a una variable declarada entera.
