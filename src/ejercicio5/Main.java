@@ -1,4 +1,4 @@
-package ejercicio5;
+package src/ejercicio5;
 /*Al inicio del turno, el sistema pide al cajero que ingrese el monto de apertura de caja.
 El monto debe ser mayor a $0. Si el cajero ingresa un valor inválido, el sistema debe volver a
 pedirlo.
